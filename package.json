@@ -1,0 +1,24 @@
+{
+  "name": "ctyun-electon-boilerplate",
+  "version": "1.0.0",
+  "description": "An Electron & Vue.js quick start boilerplate",
+  "main": "meta.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/titancat/ctyun-electon-boilerplate.git"
+  },
+  "keywords": [
+    "electron",
+    "vue",
+    "boilerplate"
+  ],
+  "author": "mcattx@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/titancat/ctyun-electon-boilerplate/issues"
+  },
+  "homepage": "https://github.com/titancat/ctyun-electon-boilerplate#readme"
+}
