@@ -20,5 +20,8 @@
   "bugs": {
     "url": "https://github.com/titancat/ctyun-electon-boilerplate/issues"
   },
-  "homepage": "https://github.com/titancat/ctyun-electon-boilerplate#readme"
+  "homepage": "https://github.com/titancat/ctyun-electon-boilerplate#readme",
+  "dependencies": {
+    "vue": "^2.6.11"
+  }
 }
