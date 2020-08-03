@@ -2,7 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb639568-c5a0-4b0b-9fe8-33392eb2c064" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/template/scripts/build.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/build/build.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/template/.npmrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/build/build.js" beforeDir="false" afterPath="$PROJECT_DIR$/template/scripts/build.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/build/dev-client.js" beforeDir="false" afterPath="$PROJECT_DIR$/template/scripts/dev-client.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/build/dev-runner.js" beforeDir="false" afterPath="$PROJECT_DIR$/template/scripts/dev-runner.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/build/webpack.base.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/template/scripts/webpack.base.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/build/webpack.main.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/template/scripts/webpack.main.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/build/webpack.renderer.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/template/scripts/webpack.renderer.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/build/webpack.web.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/template/scripts/webpack.web.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/template/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/template/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,6 +29,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
   <component name="ProjectId" id="1fRfXgj5OLL3v9KRq9Mdgq0EQFQ" />
   <component name="ProjectLevelVcsManager">
@@ -46,6 +60,7 @@
       <option name="presentableId" value="Default" />
       <updated>1596185867489</updated>
       <workItem from="1596185868750" duration="4539000" />
+      <workItem from="1596438770193" duration="4252000" />
     </task>
     <task id="LOCAL-00001" summary="add: add webpack config file">
       <created>1596189851568</created>
