@@ -91,41 +91,41 @@ let rendererConfig = {
           }
         }
       }
-    ],
-    node: {
-      __dirname: process.env.NODE_ENV !== 'production',
-      __filename: process.env.NODE_ENV !== 'production'
-    },
-    plugins: [
-      new VueLoaderPlugin(),
-      new MiniCssExtractPlugin({filename: 'styles.css'}),
-      new HtmlWebpackPlugin({
-        filename: 'index.html',
-        template: path.resolve(__dirname, '../src/index.ejs'),
-        minify: {
-          collapseWhitespace: true,
-          removeAttributeQuotes: true,
-          removeComments: true
-        },
-        nodeModules: process.env.NODE_ENV !== 'production' ? path.resolve(__dirname, '../node_modules') : false
-      }),
-      new webpack.HotModuleReplacementPlugin(),
-      new webpack.NoEmitOnErrorsPlugin()
-    ],
-    output: {
-      filename: '[name].js',
-      libraryTarget: 'commonjs2',
-      path: path.join(__dirname, '../dist/electron')
-    },
-    resolve: {
-      alias: {
-        '@': path.join(__dirname, '../src/renderer'),
-        'vue$': 'vue/dist/vue.esm.js'
+    ]
+  },
+  node: {
+    __dirname: process.env.NODE_ENV !== 'production',
+    __filename: process.env.NODE_ENV !== 'production'
+  },
+  plugins: [
+    new VueLoaderPlugin(),
+    new MiniCssExtractPlugin({filename: 'styles.css'}),
+    new HtmlWebpackPlugin({
+      filename: 'index.html',
+      template: path.resolve(__dirname, '../src/index.ejs'),
+      minify: {
+        collapseWhitespace: true,
+        removeAttributeQuotes: true,
+        removeComments: true
       },
-      extensions: ['.js', '.vue', '.json', '.css', '.node']
+      nodeModules: process.env.NODE_ENV !== 'production' ? path.resolve(__dirname, '../node_modules') : false
+    }),
+    new webpack.HotModuleReplacementPlugin(),
+    new webpack.NoEmitOnErrorsPlugin()
+  ],
+  output: {
+    filename: '[name].js',
+    libraryTarget: 'commonjs2',
+    path: path.join(__dirname, '../dist/electron')
+  },
+  resolve: {
+    alias: {
+      '@': path.join(__dirname, '../src/renderer'),
+      'vue$': 'vue/dist/vue.esm.js'
     },
-    target: 'electron-renderer'
-  }
+    extensions: ['.js', '.vue', '.json', '.css', '.node']
+  },
+  target: 'electron-renderer'
 }
 
 if (process.env.NODE_ENV !== 'production') {

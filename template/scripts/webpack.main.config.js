@@ -10,7 +10,7 @@ const MinifyPlugin = require("babel-minify-webpack-plugin")
 
 let mainConfig = {
   entry: {
-    main: path.join(__dirname, '../src/main.index.js')
+    main: path.join(__dirname, '../src/main/index.js')
   },
   // 外部依赖不打包到 bundle
   externals: [
@@ -27,25 +27,25 @@ let mainConfig = {
         test: /\.node$/,
         use: 'node-loader'
       }
-    ],
-    node: {
-      __dirname: process.env.NODE_ENV !== 'production',
-      __filename: process.env.NODE_ENV !== 'production'
-    },
-    output: {
-      filename: '[name].js',
-      libraryTarget: 'commonjs2',
-      path: path.join(__dirname, '../dist/electron')
-    },
-    plugins: [
-      // 在编译出现错误时，使用 NoEmitOnErrorsPlugin 来跳过输出阶段。
-      new webpack.NoEmitOnErrorsPlugin()
-    ],
-    resolve: {
-      extensions: ['.js', '.json', '.node']
-    },
-    target: 'electron-main'
-  }
+    ]
+  },
+  node: {
+    __dirname: process.env.NODE_ENV !== 'production',
+    __filename: process.env.NODE_ENV !== 'production'
+  },
+  output: {
+    filename: '[name].js',
+    libraryTarget: 'commonjs2',
+    path: path.join(__dirname, '../dist/electron')
+  },
+  plugins: [
+    // 在编译出现错误时，使用 NoEmitOnErrorsPlugin 来跳过输出阶段。
+    new webpack.NoEmitOnErrorsPlugin()
+  ],
+  resolve: {
+    extensions: ['.js', '.json', '.node']
+  },
+  target: 'electron-main'
 }
 
 if (process.env.NODE_ENV !== 'production') {

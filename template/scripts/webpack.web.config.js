@@ -88,39 +88,39 @@ let webConfig = {
           }
         }
       }
-    ],
-    plugins: [
-      new VueLoaderPlugin(),
-      new MiniCssExtractPlugin({filename: 'styles.css'}),
-      new HtmlWebpackPlugin({
-        filename: 'index.html',
-        template: path.resolve(__dirname, '../src/index.ejs'),
-        minify: {
-          collapseWhitespace: true,
-          removeAttributeQuotes: true,
-          removeComments: true
-        },
-        nodeModules: false
-      }),
-      new webpack.DefinePlugin({
-        'process.env.IS_WEB': 'true'
-      }),
-      new webpack.HotModuleReplacementPlugin(),
-      new webpack.NoEmitOnErrorsPlugin()
-    ],
-    output: {
-      filename: '[name].js',
-      path: path.join(__dirname, '../dist/web')
-    },
-    resolve: {
-      alias: {
-        '@': path.join(__dirname, '../src/renderer'),
-        'vue$': 'vue/dist/vue.esm.js'
+    ]
+  },
+  plugins: [
+    new VueLoaderPlugin(),
+    new MiniCssExtractPlugin({filename: 'styles.css'}),
+    new HtmlWebpackPlugin({
+      filename: 'index.html',
+      template: path.resolve(__dirname, '../src/index.ejs'),
+      minify: {
+        collapseWhitespace: true,
+        removeAttributeQuotes: true,
+        removeComments: true
       },
-      extensions: ['.js', '.vue', '.json', '.css']
+      nodeModules: false
+    }),
+    new webpack.DefinePlugin({
+      'process.env.IS_WEB': 'true'
+    }),
+    new webpack.HotModuleReplacementPlugin(),
+    new webpack.NoEmitOnErrorsPlugin()
+  ],
+  output: {
+    filename: '[name].js',
+    path: path.join(__dirname, '../dist/web')
+  },
+  resolve: {
+    alias: {
+      '@': path.join(__dirname, '../src/renderer'),
+      'vue$': 'vue/dist/vue.esm.js'
     },
-    target: 'web'
-  }
+    extensions: ['.js', '.vue', '.json', '.css']
+  },
+  target: 'web'
 }
 
 if (process.env.NODE_ENV === 'production') {
