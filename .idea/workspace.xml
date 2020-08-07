@@ -2,18 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb639568-c5a0-4b0b-9fe8-33392eb2c064" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/template/scripts/build.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/template/src/index.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/build/build.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/template/.npmrc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/build/build.js" beforeDir="false" afterPath="$PROJECT_DIR$/template/scripts/build.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/build/dev-client.js" beforeDir="false" afterPath="$PROJECT_DIR$/template/scripts/dev-client.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/build/dev-runner.js" beforeDir="false" afterPath="$PROJECT_DIR$/template/scripts/dev-runner.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/build/webpack.base.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/template/scripts/webpack.base.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/build/webpack.main.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/template/scripts/webpack.main.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/build/webpack.renderer.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/template/scripts/webpack.renderer.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/build/webpack.web.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/template/scripts/webpack.web.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/template/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/template/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/template/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/template/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/scripts/dev-runner.js" beforeDir="false" afterPath="$PROJECT_DIR$/template/scripts/dev-runner.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/scripts/webpack.main.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/template/scripts/webpack.main.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/scripts/webpack.renderer.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/template/scripts/webpack.renderer.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/scripts/webpack.web.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/template/scripts/webpack.web.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,6 +20,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -42,6 +39,8 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -60,7 +59,8 @@
       <option name="presentableId" value="Default" />
       <updated>1596185867489</updated>
       <workItem from="1596185868750" duration="4539000" />
-      <workItem from="1596438770193" duration="4252000" />
+      <workItem from="1596438770193" duration="6087000" />
+      <workItem from="1596782603852" duration="5090000" />
     </task>
     <task id="LOCAL-00001" summary="add: add webpack config file">
       <created>1596189851568</created>
@@ -112,5 +112,13 @@
       <screen x="0" y="23" width="1280" height="777" />
     </state>
     <state x="391" y="152" key="com.intellij.openapi.vcs.changes.SpecificFilesViewDialog/0.23.1280.777/-58.-1057.1920.1057@0.23.1280.777" timestamp="1596189944876" />
+    <state x="539" y="-874" width="598" height="548" key="find.popup" timestamp="1596789222644">
+      <screen x="-58" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="539" y="-874" width="598" height="548" key="find.popup/0.23.1280.777/-58.-1057.1920.1057@-58.-1057.1920.1057" timestamp="1596789222644" />
+    <state x="503" y="-797" width="670" height="676" key="search.everywhere.popup" timestamp="1596788556491">
+      <screen x="-58" y="-1057" width="1920" height="1057" />
+    </state>
+    <state x="503" y="-797" width="670" height="676" key="search.everywhere.popup/0.23.1280.777/-58.-1057.1920.1057@-58.-1057.1920.1057" timestamp="1596788556491" />
   </component>
 </project>

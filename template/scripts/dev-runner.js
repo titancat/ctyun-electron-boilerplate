@@ -2,7 +2,7 @@ const chalk = require('chalk')
 const electron = require('electron')
 const path = require('path')
 const { say } = require('cfonts')
-const { spawn } = require('spawn')
+const { spawn } = require('child_process')
 const webpack = require('webpack')
 const WebpackDevServer = require('webpack-dev-server')
 const webpackHotMiddleware = require('webpack-hot-middleware')
@@ -82,6 +82,7 @@ function startRenderer () {
     })
 
     compiler.hooks.compilation.tap('compilation', compilation => {
+      // html-webpack-plugin < @4
       compilation.hooks.htmlWebpackPluginAfterEmit.tapAsync('html-webpack-plugin-after-emit', (data, cb) => {
         hotMiddleware.publish({ action: 'reload' })
         cb()
