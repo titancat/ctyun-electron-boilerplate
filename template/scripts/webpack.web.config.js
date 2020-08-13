@@ -133,7 +133,11 @@ if (process.env.NODE_ENV === 'production') {
         {
           from: path.join(__dirname, '../static'),
           to: path.join(__dirname, '../dist/web/static'),
-          ignore: ['.*']
+          globOptions: {
+            dot: true,
+            gitignore: true,
+            ignore: ['.*']
+          }
         }
       ]
     }),
