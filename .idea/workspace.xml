@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cb639568-c5a0-4b0b-9fe8-33392eb2c064" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/template/src/index.ejs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/template/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/template/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/scripts/dev-runner.js" beforeDir="false" afterPath="$PROJECT_DIR$/template/scripts/dev-runner.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/scripts/webpack.main.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/template/scripts/webpack.main.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/scripts/webpack.renderer.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/template/scripts/webpack.renderer.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/scripts/webpack.web.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/template/scripts/webpack.web.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/template/src/main/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/template/src/main/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +54,9 @@
       <updated>1596185867489</updated>
       <workItem from="1596185868750" duration="4539000" />
       <workItem from="1596438770193" duration="6087000" />
-      <workItem from="1596782603852" duration="5090000" />
+      <workItem from="1596782603852" duration="5675000" />
+      <workItem from="1597025604353" duration="323000" />
+      <workItem from="1597310448169" duration="861000" />
     </task>
     <task id="LOCAL-00001" summary="add: add webpack config file">
       <created>1596189851568</created>
